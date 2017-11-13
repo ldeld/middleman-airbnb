@@ -1,0 +1,12 @@
+- location: 'paris'
+  description: 'Charming room in Montmartre'
+  rating: 4
+  owner: { name: 'Sebastian', username: "ssaunier" }
+- location: 'tokyo'
+  description: 'Small flat in Tokyo'
+  rating: 3
+  owner: { name: 'Boris', username: "papillard" }
+- location: 'london'
+  description: 'Nice flat in Picadilly'
+  rating: 5
+  owner: { name: 'Romain', username: "monsieurpaillard" }
