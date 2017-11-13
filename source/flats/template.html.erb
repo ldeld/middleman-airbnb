@@ -28,7 +28,7 @@
       <div class="flat-amenities">
         <p>Amenities:</p>
         <div class="row">
-          <div class="col-xs-12 col-md-4">
+          <div class="col-xs-12 col-md-5">
             <ul class="amenity-list">
               <% if flat.wifi %>
                 <li><i class="fa fa-wifi"></i> Wifi
@@ -44,11 +44,11 @@
               <% end %></li>
             </ul>
           </div>
-          <div class="col-xs-12 col-md-3">
+          <div class="col-xs-12 col-md-5">
             <ul class="amenity-list">
-            <li>Rooms: <%= flat.rooms %> </li>
-            <li>Beds: <%= flat.beds %> </li>
-            <li>Bathrooms: <%= flat.bathrooms %> </li>
+            <li><i class="fa fa-user"></i>Accomodates: <%= flat.beds %> </li>
+            <li><i class="fa fa-bed"></i>Rooms: <%= flat.rooms %> </li>
+            <li><i class="fa fa-bath"></i>Bathrooms: <%= flat.bathrooms %> </li>
             </ul>
           </div>
         </div>

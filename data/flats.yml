@@ -13,7 +13,7 @@ ssaunier:
   rating: 3
 papillard:
   name: "Boris' home"
-  description: Small flat in Tokyo
+  description: "Small flat in Tokyo"
   city_name: "Tokyo, Japan"
   city_slug: "tokyo"
   rooms: 2
@@ -25,8 +25,8 @@ papillard:
   laundry: false
   rating: 4
 monsieurpaillard:
-  name: Romain's home
-  description: Nice flat in Piccadilly
+  name: "Romain's home"
+  description: "Nice flat in Piccadilly"
   city_name: "London, UK"
   city_slug: "london"
   rooms: 3
@@ -37,3 +37,4 @@ monsieurpaillard:
   tv: true
   laundry: true
   rating: 5
+
