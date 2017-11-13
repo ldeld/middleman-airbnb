@@ -1,0 +1,66 @@
+.img-circle {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.header {
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 60px;
+}
+
+.flat-card {
+  // padding: 60px 0;
+  padding: 25px 0;
+  display: flex;
+  h3 {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  p {
+    font-size: 15px;
+    color: #AFAFAF;
+    margin: 5px 0;
+  }
+}
+
+.flat-owner {
+  padding: 0 20px;
+}
+
+.flat-rating {
+  display: inline-block;
+  color: #AFAFAF;
+}
+
+.flat-amenities {
+  height: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  i {
+    padding: 5px;
+  }
+  p {
+    border-top: 1px solid #EEE;
+    padding-top: 10px;
+  }
+}
+
+.booking-form {
+  background-color: white;
+  border-radius: 10px;
+  h3 {
+    font-size: 26px;
+    margin-top: 0;
+  }
+  padding: 20px;
+}
+
+.amenity-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 14px;
+  color: #999;
+}

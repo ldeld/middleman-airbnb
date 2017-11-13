@@ -22,14 +22,14 @@ title: Le Wagon - Middleman
   <div class="container cards">
     <h2 class="title">Recent flats</h2>
     <div class="row"">
-      <% data.flats.each do |flat| %>
+      <% data.flats.each do |owner, flat| %>
         <div class="col-xs-12 col-sm-4">
-          <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/<%= flat.location %>');">
+          <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url('https://kitt.lewagon.com/placeholder/cities/<%= flat.city_slug %>');">
             <div class="card-category">
-              <%= flat.location.upcase %>
+              <%= flat.city_name.upcase %>
             </div>
               <div class="card-description">
-                <h2><%= flat.owner.name %>'s home</h2>
+                <h2><%= flat.name %></h2>
                 <p><%= flat.description %></p>
             </div>
             <div class="card-rating">
@@ -40,8 +40,8 @@ title: Le Wagon - Middleman
                 <i class="fa fa-star grey"></i>
               <% end %>
             </div>
-            <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{flat.owner.username}", class: "card-user" %>
-            <a class="card-link" href="#" ></a>
+            <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class: "card-user" %>
+            <%= link_to "", "flats/#{owner}.html", class: "card-link" %>
           </div>
       </div>
       <% end %>
